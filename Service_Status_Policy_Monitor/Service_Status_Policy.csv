@@ -1,0 +1,10 @@
+ServiceName,DesiredStatus
+Spooler,Running
+RemoteAccess,Stopped
+RemoteRegistry,Not_Installed
+DHCPServer,Running
+DNS,Running
+DPS,Running
+gpsvc,Running
+notARealService,Not_Installed
+anotherFakeService, Running
