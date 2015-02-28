@@ -1,3 +1,6 @@
+**************************************
+What is Service_Status_Policy_Monistor
+**************************************
 
 See what services are running on your Microsoft OS computer in color coded fashion. 
 
@@ -11,7 +14,25 @@ in order to generate a color coded report on:
 Service_Status_Policy_Monistor.ps1 can also run in an intermittent mode where it checks the status of services at
 intervals determined by the user.
 
-Note: log_destination_directory.txt must be updated on your local system before running this script so that 
-logs are configured to save to the appropriate directory of your choosing.
 
-Requires PowerShell (version 3.0 and up)
+*************
+Installation:
+*************
+
+Place the Service_Status_Policy_Monistor directory in any location.
+
+Create a directory where logs will be saved.
+
+Update log_destination_directory.txt with the location of the directory to which
+logs will be saved.
+
+Right Click on Service_Status_Policy_Monistor.ps1 and run as Administrator.
+
+
+************
+Requirements
+************
+
+Admin account on local system
+
+PowerShell (version 3.0 and up)
