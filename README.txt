@@ -36,3 +36,17 @@ Requirements
 Admin account on local system
 
 PowerShell (version 3.0 and up)
+
+******
+Credit
+******
+
+A large portion of this project is not my original work. The base Service Monitor script is taken
+from a tutorial at overworkedadmin.com. The additional features I have added to this script include:
+
+* the ability to differentiate between services that are installed but not running and services that are not installed at all
+* the report color code scheme
+* the ability to filter reports to display only certain information
+* the ability to run the script continuously at custom intervals
+* the clean up of PowerShell variables after each execution/cycle of the script
+* the ability to turn report logging to disk on/off and designate what location to save logs
